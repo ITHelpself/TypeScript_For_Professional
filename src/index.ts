@@ -1,2 +1,3 @@
-var num:number = 5;
-num = 2;
+import {Greeter} from './models/Greeter';
+let greeter = new Greeter("Hello, world!");
+console.log(greeter.greet());
